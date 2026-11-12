@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>我的簡報網頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .slide-container {
+            margin-bottom: 25px;
+        }
+        img {
+            width: 80%;
+            max-width: 900px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>我的簡報展示</h1>
+
+    <!-- 請依照你的圖片檔名，在這裡依序加入圖片 -->
+    <div class="slide-container"><img src="投影片1.JPG" alt="第 1 頁"></div>
+    <div class="slide-container"><img src="投影片2.JPG" alt="第 2 頁"></div>
+    <div class="slide-container"><img src="投影片3.JPG" alt="第 3 頁"></div>
+    <div class="slide-container"><img src="投影片4.JPG" alt="第 4 頁"></div>
+    <div class="slide-container"><img src="投影片5.JPG" alt="第 5 頁"></div>
+    <!-- <div class="slide-container"><img src="slide3.jpg" alt="第 3 頁"></div> -->
+
+</body>
+</html>
